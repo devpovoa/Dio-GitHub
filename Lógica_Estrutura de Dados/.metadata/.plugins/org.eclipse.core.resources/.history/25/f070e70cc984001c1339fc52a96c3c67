@@ -1,0 +1,21 @@
+import javax.swing.JOptionPane;
+
+public class compraParcelada {
+	public static void main(String[] args) {
+		float valor, parcela;
+		int opcao;
+
+		valor = Float.parseFloat(JOptionPane.showInputDialog(null, "Informe o valor total da venda."));
+		opcao = Integer.parseInt(JOptionPane.showInputDialog(null, "Digite a opção de pagamento."));
+
+		switch (opcao) {
+		case 1:
+			valor = valor * 0.05f + valor;
+			JOptionPane.showInternalMessageDialog(null, "Pagamento de $" + valor);
+			break;
+
+		default:
+			break;
+		}
+	}
+}

@@ -1,0 +1,2 @@
+Neste portfólio estão alguns dos códigos criados no início de minha carreira de desenvolvedor Java.
+Como ferramentas de codificação estou usando o JDK-16 e a IDE Eclipse.

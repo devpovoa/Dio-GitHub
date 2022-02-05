@@ -1,0 +1,13 @@
+import javax.swing.JOptionPane;
+
+public class selecaoEncadeada {
+	public static void main(String[] args) {
+		int a, b, c;
+
+		a = Integer.parseInt(JOptionPane.showInputDialog(null, "Informe o valor de A"));
+		b = Integer.parseInt(JOptionPane.showInputDialog(null, "Informe o valor de B"));
+		c = Integer.parseInt(JOptionPane.showInputDialog(null, "Informe o valor de C"));
+
+	}
+
+}

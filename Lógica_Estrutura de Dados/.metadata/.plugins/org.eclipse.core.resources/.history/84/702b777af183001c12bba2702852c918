@@ -1,0 +1,11 @@
+import javax.swing.JOptionPane;
+
+public class selecaoMultEsc {
+	public static void main(String[] args) {
+
+		int valor;
+		valor = Integer.parseInt(JOptionPane.showInputDialog(null, "Insira o mês desejado de 1 à 12."));
+		
+		
+	}
+}

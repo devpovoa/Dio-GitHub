@@ -1,0 +1,15 @@
+import javax.swing.JOptionPane;
+
+public class calculadoraSoma {
+	public static void main(String[] args) {
+		int valor1, valor2, soma;
+		
+		valor1 = JOptionPane.showInputDialog("Qual o primeiro valor?");
+		valor2 = JOptionPane.showInputDialog("qual o segundo valor:");
+		
+		soma = valor1+valor2;
+		
+		JOptionPane.showMessageDialog(null, "O resultado da soma é: " + soma);
+
+	}
+}

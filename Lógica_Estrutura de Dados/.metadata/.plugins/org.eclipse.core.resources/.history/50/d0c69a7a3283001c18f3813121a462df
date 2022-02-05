@@ -1,0 +1,19 @@
+import javax.swing.JOptionPane;
+
+public class bonusSalarial {
+	public static void main(String[] args) {
+		double salario, bonus;
+		int tempo;
+
+		salario = Integer.parseInt(JOptionPane.showInputDialog(null, "Informe seu salário"));
+		tempo = Integer.parseInt(JOptionPane.showInputDialog(null, "Informe seu tempo na empresa"));
+
+		if (tempo >= 5) {
+			bonus = salario * 20 / 100 + salario;
+			JOptionPane.showMessageDialog(null, "Seu salário atual será de : " + bonus);
+		} else {
+			bonus = salario * 10 / 100 + salario;
+			JOptionPane.showMessageDialog(null, "Seu salário atual será de : " + bonus);
+		}
+	}
+}

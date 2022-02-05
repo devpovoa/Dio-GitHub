@@ -1,0 +1,8 @@
+import javax.swing.JOptionPane;
+
+public class selecaoEncadeada {
+	public static void main(String[] args) {
+
+	}
+
+}

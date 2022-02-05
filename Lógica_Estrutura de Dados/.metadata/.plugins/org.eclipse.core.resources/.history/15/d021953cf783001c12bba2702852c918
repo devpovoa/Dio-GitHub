@@ -1,0 +1,9 @@
+import javax.swing.JOptionPane;
+
+public class selecaoMenu {
+	public static void main(String[] args) {
+		int opcao;
+		
+		opcao = Integer.parseInt(JOptionPane.showInputDialog(null, "Para cadastrar cliente digite: 1\n Para exluir um cliente digite: 2\n Para alterar um cliente digite: 3"));
+	}
+}

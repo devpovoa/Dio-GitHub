@@ -1,0 +1,4 @@
+INDEX VERSION 1.131+/home/devpovoa/Documentos/Meus estudos/Lógica_Estrutura de Dados/.metadata/.plugins/org.eclipse.jdt.core
+1865797976.index
+1345525333.index
+2477214411.index
