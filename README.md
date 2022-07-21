@@ -1,2 +1,2 @@
-# Desafios de Códidos em Java :coffee:
+# Desafios de Códidos
 ### Códigos solucionados :arrow_up::rocket: 
