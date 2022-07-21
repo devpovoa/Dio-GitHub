@@ -1,0 +1,47 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="style.css">
+    <script src="index.js" defer></script>
+    <title>Desafio Typescript</title>
+  </head>
+  <body>
+    <h1>Test API TMDB</h1>
+    <span id="messages"></span>
+    <div id="container">
+      <div id="login-content" class="mb-5">
+        <input id="login" placeholder="Usuário" class="mb-5"/>
+        <input id="password" placeholder="Senha" type="password" class="mb-5"/>
+        <input id="api-key" placeholder="Chave da API" class="mb-5"/>
+        <button id="login-button" class="mb-5">Login</button>
+        <button id="logout-button" class="mb-5" disabled>Logout</button>
+      </div>
+      <div id="create-list-container">
+        <div id="create-list-content" class="mb-5">
+          <input type="text" id="create-list-name" class="mb-5" placeholder="Nome da lista" disabled>
+          <input type="text" id="create-list-description" class="mb-5" placeholder="Descrição da lista" disabled>
+          <button id="create-list-button" class="mb-5" disabled>Criar nova lista</button>
+        </div>
+        <div id="add-media-to-list-content" class="mb-5">
+          <input type="number" id="add-media-to-list-id-media" class="mb-5" placeholder="Id da mídia" disabled>
+          <input type="number" id="add-media-to-list-id-list" class="mb-5" placeholder="Id da lista" disabled>
+          <button id="add-media-to-list-button" class="mb-5" disabled>Adicionar filme a lista</button>
+        </div>
+      </div>
+      <div id="search-container">
+        <div id="search-media-by-name-content" class="mb-5">
+          <input id="search-media-by-name" placeholder="Nome da mídia" disabled/>
+          <button id="search-media-by-name-button" disabled>Pesquisar filme</button>
+        </div>
+        <div id="search-media-by-list-content" class="mb-5">
+          <input type="number" id="search-media-by-list-id" placeholder="Id da lista" disabled>
+          <button id="search-media-by-list-button" disabled>Pesquisar lista</button>
+        </div>
+        <div id="div-list-container"></div>
+      </div>
+    </div>
+  </body>
+</html>
